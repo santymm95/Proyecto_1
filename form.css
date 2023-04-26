@@ -1,0 +1,29 @@
+
+ 
+
+table td{
+    border: 1px solid black;
+    
+    text-align: center;
+    padding: 2px;
+ 
+}
+
+
+ 
+
+.descripcion{
+    width: auto;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#pc{
+    width: 200px;
+    height: 200px;
+}
+
+ tr{
+    color: black;
+ }
+

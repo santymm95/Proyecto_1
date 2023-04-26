@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerPrincipa{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/Logo-neumomed-ajuste.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 60px;
+
+}
+
+input{
+    outline: 0;
+    background-color:#f2f2f26a;
+    width: 100%;
+   
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: content-box;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.boton{
+    font-family:sans-serif ;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #555355;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.boton:hover{
+    background-color:#076f91;
+    color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.form-grup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color:#f2f2f26a;
+    max-width: 360px;
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px;
+     
+}
+
+input::placeholder { color:rgb(46, 46, 46); }
+
+
+
+h1{
+    margin-bottom: 20px;
+     font-weight: 900;
+     color: #555355;
+    font-family: sans-serif;
+}
+
+span{
+    color: red;
+    padding-top: 5px;
+}
